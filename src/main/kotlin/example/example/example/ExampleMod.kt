@@ -21,7 +21,7 @@ object ExampleMod {
     
     init {
         LOGGER.info("Initializing test mod...")
-        
+
         ModBlocks.REGISTRY.register(MOD_BUS)
         
         val obj = runForDist(
